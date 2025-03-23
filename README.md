@@ -68,4 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-till T:3:45:00
+
+Here we have eliminated using local storage and have utilized the CRUD operations to change the data in the data.json file thorugh which the initial data is rendered and we are performing add , update , delete to the data.json file.
+
+we are using the API_URL to get the data the setting the handle funcitons to create the appropriate request to the the function apirequest. Inside this the is a fetch call for the URL being passed and the method that is executed for that call. this helps ssegregate the functionality.
+
+changes are in apirequest.js and app.js only
